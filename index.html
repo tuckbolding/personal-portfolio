@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Tucker's Site</title>
-  <!-- meta -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <!-- mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- scripts -->
-  <script type="text/javascript" src="assets/js/app.js"></script>
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
-</head>
-<header>
-  <div id="page-wrapper">
-    <h1>Tucker Bolding<img src="assets/imgs/leo-week.gif"></h1>
-  </div>
-</header>
-<body>
-  
-</body>
+  <head>
+    <title>Tucker's Site</title>
+   <link href="normalize.css" rel="stylesheet">
+   <style>
+    header {
+      text-align:center;
+      background: url("http://i.imgur.com/dmnwaaf.jpg");
+      background-size: cover;
+      color:white;
+
+    }
+    img {
+        margin: 40px 0px 0px 0px;
+        border: 6px solid white;
+        border-radius: 15px;
+    }
+    a {
+        color: white;
+    }
+    ul {
+        padding: 10px;
+        background: rgba(0,0,0,0.5);
+      }
+    li {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+        color: white
+      }
+    @media (max-width: 500px) {
+        h1 {
+          font-size: 36px;
+        }
+        li {
+          display: block;
+          padding: 5px;
+        }
+      }
+
+   </style>
+  </head>
+      <body>
+       <header>
+        <img src="https://a2-images.myspacecdn.com/images04/3/1c9440790ba8408da28a6fdda020c534/300x300.jpg" width=150>
+        <h1>Tucker's Site</h1>
+          <ul>
+            <li><a href="https://soundcloud.com/tuckbolding">Music</a></li>
+            <li><a href="https://www.instagram.com/tuckbolding/">Pictures</a></li>
+            <li><a href="https://facebook.com/tuck.bolding">Facebook</a></li>
+            <li><a href="https://github.com/tuckbolding?tab=repositories">My Work</a></li>
+          </ul>
+        </header>
+
+      </body>
+      <footer>
+      <button class = contact>Contact Me</button>
+      </footer>
 </html>
